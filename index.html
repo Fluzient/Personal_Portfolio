@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <nav class="top-nav">
+        <a class="brand" href="#top">Liu Zichang</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="site-menu">
+          <a href="#about" data-i18n="navAbout"></a>
+          <a href="#experience" data-i18n="navExperience"></a>
+          <a href="#projects" data-i18n="navProjects"></a>
+          <a href="#skills" data-i18n="navSkills"></a>
+          <a href="#contact" data-i18n="navContact"></a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Embedded Systems - FPGA - AI Agent</p>
+          <h1 data-i18n="name"></h1>
+          <p class="hero-summary" data-i18n="heroSummary"></p>
+          <div class="hero-tags">
+            <span data-i18n="heroTag1"></span>
+            <span data-i18n="heroTag2"></span>
+            <span data-i18n="heroTag3"></span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact" data-i18n="ctaContact"></a>
+            <a class="button button-secondary" href="#projects" data-i18n="ctaProjects"></a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-title" data-i18n="focusTitle"></p>
+          <ul class="highlight-list">
+            <li data-i18n="focus1"></li>
+            <li data-i18n="focus2"></li>
+            <li data-i18n="focus3"></li>
+            <li data-i18n="focus4"></li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+          <h2 data-i18n="aboutTitle"></h2>
+        </div>
+        <div class="card">
+          <p data-i18n="aboutBody1"></p>
+          <p data-i18n="aboutBody2"></p>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="section-label">Practice</p>
+          <h2 data-i18n="experienceTitle"></h2>
+        </div>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-meta">
+            <p class="timeline-date">2026.03 - 2026.05</p>
+            <h3 data-i18n="exp1Company"></h3>
+            <p class="timeline-role" data-i18n="exp1Role"></p>
+          </div>
+          <div class="timeline-content">
+            <ul>
+              <li data-i18n="exp1a"></li>
+              <li data-i18n="exp1b"></li>
+              <li data-i18n="exp1c"></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-meta">
+            <p class="timeline-date">2026.01 - 2026.03</p>
+            <h3 data-i18n="exp2Company"></h3>
+            <p class="timeline-role" data-i18n="exp2Role"></p>
+          </div>
+          <div class="timeline-content">
+            <ul>
+              <li data-i18n="exp2a"></li>
+              <li data-i18n="exp2b"></li>
+              <li data-i18n="exp2c"></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-meta">
+            <p class="timeline-date">2025.08 - 2025.12</p>
+            <h3 data-i18n="exp3Company"></h3>
+            <p class="timeline-role" data-i18n="exp3Role"></p>
+          </div>
+          <div class="timeline-content">
+            <ul>
+              <li data-i18n="exp3a"></li>
+              <li data-i18n="exp3b"></li>
+              <li data-i18n="exp3c"></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2 data-i18n="projectsTitle"></h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="card project-card reveal">
+            <div class="project-head">
+              <div>
+                <h3 data-i18n="project1Title"></h3>
+                <p class="project-date">2025.07 - 2026.08</p>
+              </div>
+              <span class="project-badge" data-i18n="project1Badge"></span>
+            </div>
+            <p data-i18n="project1Summary"></p>
+            <ul>
+              <li data-i18n="project1a"></li>
+              <li data-i18n="project1b"></li>
+              <li data-i18n="project1c"></li>
+            </ul>
+          </article>
+
+          <article class="card project-card reveal">
+            <div class="project-head">
+              <div>
+                <h3 data-i18n="project2Title"></h3>
+                <p class="project-date">2026.04 - 2026.05</p>
+              </div>
+              <span class="project-badge" data-i18n="project2Badge"></span>
+            </div>
+            <p data-i18n="project2Summary"></p>
+            <ul>
+              <li data-i18n="project2a"></li>
+              <li data-i18n="project2b"></li>
+              <li data-i18n="project2c"></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="section-label">Capabilities</p>
+          <h2 data-i18n="skillsTitle"></h2>
+        </div>
+        <div class="skills-layout">
+          <article class="card">
+            <h3 data-i18n="skillsGroup1"></h3>
+            <div class="chip-group">
+              <span>C/C++</span>
+              <span>Python</span>
+              <span data-i18n="skill11"></span>
+              <span data-i18n="skill12"></span>
+            </div>
+          </article>
+          <article class="card">
+            <h3 data-i18n="skillsGroup2"></h3>
+            <div class="chip-group">
+              <span>STM32</span>
+              <span>ESP32</span>
+              <span>FPGA</span>
+              <span>Nios II</span>
+              <span>FreeRTOS</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3 data-i18n="skillsGroup3"></h3>
+            <div class="chip-group">
+              <span>OpenCV</span>
+              <span>Qt</span>
+              <span>SQLite</span>
+              <span>ThingsCloud</span>
+              <span>AI Agent</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3 data-i18n="skillsGroup4"></h3>
+            <div class="chip-group">
+              <span data-i18n="skill41"></span>
+              <span data-i18n="skill42"></span>
+              <span>CET-4</span>
+              <span data-i18n="skill44"></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <p class="section-label">Connect</p>
+          <h2 data-i18n="contactTitle"></h2>
+        </div>
+        <div class="contact-grid">
+          <article class="card contact-card">
+            <h3 data-i18n="contactCard1"></h3>
+            <p data-i18n="contactIntro"></p>
+            <div class="contact-list">
+              <button class="contact-item copy-trigger" type="button" data-copy="liuzichang0914@163.com">
+                <span class="contact-label" data-i18n="emailLabel"></span>
+                <span class="contact-value">liuzic***@163.com</span>
+              </button>
+              <a class="contact-item" href="tel:19546010875">
+                <span class="contact-label" data-i18n="phoneLabel"></span>
+                <span class="contact-value">195****0875</span>
+              </a>
+            </div>
+            <p class="contact-tip" id="copy-status" aria-live="polite" data-i18n="copyHint"></p>
+          </article>
+
+          <article class="card contact-card">
+            <h3 data-i18n="contactCard2"></h3>
+            <div class="info-list">
+              <div>
+                <span data-i18n="infoSchool"></span>
+                <strong data-i18n="infoSchoolValue"></strong>
+              </div>
+              <div>
+                <span data-i18n="infoIndustry"></span>
+                <strong data-i18n="infoIndustryValue"></strong>
+              </div>
+              <div>
+                <span data-i18n="infoRole"></span>
+                <strong data-i18n="infoRoleValue"></strong>
+              </div>
+              <div>
+                <span data-i18n="infoStatus"></span>
+                <strong data-i18n="infoStatusValue"></strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

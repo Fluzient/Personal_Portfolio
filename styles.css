@@ -343,6 +343,29 @@ button {
   margin-bottom: 14px;
 }
 
+.project-links {
+  margin-top: 18px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--brand);
+  font-weight: 600;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.project-link:hover {
+  transform: translateY(-1px);
+  background: rgba(37, 99, 235, 0.14);
+  border-color: rgba(37, 99, 235, 0.34);
+}
+
 .contact-list,
 .info-list {
   display: grid;

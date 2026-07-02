@@ -1,25 +1,5 @@
-# 刘子畅个人简历网站
+# 刘子畅个人网站
 
-这是一个使用原生 HTML、CSS、JavaScript 搭建的单页个人简历网站，适合直接部署到 GitHub Pages，面向中文求职场景。
-
-## 本地预览
-
-可以直接双击打开 `index.html` 预览页面。
-
-如果想用本地服务查看，也可以在当前目录执行：
-
-```powershell
-python -m http.server 8000
-```
-
-然后访问 `http://localhost:8000`。
-
-## 文件说明
-
-- `index.html`：页面结构与简历内容
-- `styles.css`：页面样式
-- `script.js`：导航、滚动高亮、复制邮箱等交互
-- `*.pdf`：原始简历 PDF
 
 ## 发布到 GitHub Pages
 
